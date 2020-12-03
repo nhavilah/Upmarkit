@@ -1,0 +1,127 @@
+/*Colours*/
+:root {
+  --upmarkit-blue: #00172e;
+  --white: white;
+  --black: black;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--black);
+}
+
+.topnav {
+  overflow: hidden;
+  color: var(--white);
+}
+
+.topnav button {
+  background-color: var(--upmarkit-blue);
+  color: var(--white);
+  font-size: 1.5rem;
+  padding: 2rem;
+  float: right;
+  border: none;
+  padding-bottom: 2.55rem;
+}
+
+.topnav button:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.homebutton button {
+  color: var(--white);
+  float: left;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  border: none;
+}
+
+.homebutton button:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.center-alignment {
+  float: center;
+  color: var(--white);
+  text-align: center;
+  padding: 0.3125rem 0.4375;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.top-bar {
+  width: 100%;
+  background-color: var(--upmarkit-blue);
+  height: 6.3rem;
+}
+
+.homepage {
+  position: absolute;
+  left: 43%;
+  top: 38%;
+}
+
+.homepage h1 {
+  color: var(--black);
+  text-align: center;
+}
+
+.homepage button {
+  position: relative;
+  left: 2%;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.homepage button:hover {
+  border: solid;
+}
+
+.about-page {
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  left: 45%;
+}
+
+.about-page h1 {
+  color: var(--black);
+}
+
+.about-page p {
+  color: var(--black);
+}
+
+.contact-page {
+  position: absolute;
+  left: 43%;
+  top: 15%;
+}
+
+.contact-page h1 {
+  color: var(--black);
+}
+
+.contact-page h2 {
+  color: var(--black);
+}
+
+.contact-page input {
+  width: 20rem;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid var(--upmarkit-blue);
+  border-radius: 1rem;
+  font-size: 1rem;
+  overflow: auto;
+}
+
+.contact-page input:focus {
+  border: var(--white);
+  border-radius: 1rem;
+}
