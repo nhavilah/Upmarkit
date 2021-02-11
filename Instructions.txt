@@ -1,0 +1,16 @@
+This is the instructions for the Upmarkit/Tandjay Projects.
+They're built on the same architecture so I've just moved the Tandjay stuff into here.
+These projects are powered by React, using MySQL for the server and the express middleware to run the server.
+Whilst everything's still in development, there is a process for setup and running of the website.
+The backend has to be running first to ensure everything works properly. 
+1) Install MySQL server and open up MySQL Workbench
+2) Create a new server and run it
+3) Open the server.sql file and run it once the server is up and running
+4) Get to the folder where app.js is stored and open it in Visual Studio Code or whichever IDE you work in
+5) Go to the terminal and type npm start to run the server
+Now the backend is ready and the front end can be run.
+1) Get to the folder where the front end app.js is stored
+2) Type npm start in the terminal
+3) It will ask you if you wish to run it on a different port. Type Y and press enter
+
+NOTE: This is not ready for deployment and that is to be determined by the client, as business requirements are changing so this project may be shelved until further notice
